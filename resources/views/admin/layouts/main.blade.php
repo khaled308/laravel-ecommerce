@@ -16,7 +16,11 @@
 	<!-- Style-->  
 	<link rel="stylesheet" href="{{asset('assets/admin/css/style.css')}}">
 	<link rel="stylesheet" href="{{asset('assets/admin/css/skin_color.css')}}">
-     
+  <!-- SweetAlert2 -->
+  <link rel="stylesheet" href="{{asset('assets/admin/assets/vendor_components/sweetalert/sweetalert.css')}}">
+  <!-- Toastr -->
+  <link rel="stylesheet" href="{{asset('assets/admin/assets/vendor_components/toastr/toastr.min.css')}}">
+  @stack('styles')
   </head>
 
 <body class="hold-transition dark-skin sidebar-mini theme-primary fixed">
@@ -54,15 +58,24 @@
   	
 	 
 	<!-- Vendor JS -->
-	<script src="{{asset('assets/admin/js/vendors.min.js')}}"></script>
-    <script src="{{asset('assets/admin/assets/icons/feather-icons/feather.min.js')}}"></script>	
-	<script src="{{asset('assets/admin/assets/vendor_components/easypiechart/dist/jquery.easypiechart.js')}}"></script>
-	<script src="{{asset('assets/admin/assets/vendor_components/apexcharts-bundle/irregular-data-series.js')}}"></script>
-	<script src="{{asset('assets/admin/assets/vendor_components/apexcharts-bundle/dist/apexcharts.js')}}"></script>
-	
+  <script src="{{asset('assets/admin/js/vendors.min.js')}}"></script>
+	@stack('scripts')
 	<!-- Sunny Admin App -->
 	<script src="{{asset('assets/admin/js/template.js')}}"></script>
 	<script src="{{asset('assets/admin/js/pages/dashboard.js')}}"></script>
-
+    <!-- Sweet Alert -->
+    <script src="{{asset('assets/admin/assets/vendor_components/sweetalert/sweetalert.min.js')}}"></script>
+    <!-- Toaster -->
+    <script src="{{asset('assets/admin/assets/vendor_components/toastr/toastr.min.js')}}"></script>
+  <script>
+    const errors = @json($errors->all()) ?? []
+    const successMessage = "{{Session::get('success')}}" ?? ''
+    for(let error of errors){
+      toastr.error(error)
+    }
+    if (successMessage){
+      toastr.success(successMessage)
+    }
+  </script>
 </body>
 </html>

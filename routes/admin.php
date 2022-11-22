@@ -10,6 +10,7 @@ Route::group(['prefix' => 'admin', 'middleware' => 'auth:admin', 'as' => 'admin.
   //profile
   Route::get('profile', [AdminProfileController::class, 'index'])->name('profile');
   Route::get('profile/edit', [AdminProfileController::class, 'edit'])->name('profile.edit');
+  Route::put('profile/edit', [AdminProfileController::class, 'update'])->name('profile.update');
   Route::post('logout', [AuthController::class, 'logout'])->name('logout');
 });
 
