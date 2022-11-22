@@ -11,7 +11,7 @@ class AuthController extends Controller
 {
     function getLogin()
     {
-        return view('admin.login');
+        return view('admin.auth.login');
     }
 
     function postLogin(Request $request)
