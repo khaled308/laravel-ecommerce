@@ -102,7 +102,7 @@
                     <li><a href="#">Headphones</a></li>
                   </ul>
                 </div>
-                <div class="dropdown-banner-holder"> <a href="#"><img alt="" src="assets/images/banners/banner-side.png" /></a> </div>
+                <div class="dropdown-banner-holder"> <a href="#"><img alt="" src="assets/frontend/images/banners/banner-side.png" /></a> </div>
               </div>
               <!-- /.row --> 
             </li>
@@ -208,7 +208,7 @@
                     <li><a href="#">Headphones</a></li>
                   </ul>
                 </div>
-                <div class="dropdown-banner-holder"> <a href="#"><img alt="" src="assets/images/banners/banner-side.png" /></a> </div>
+                <div class="dropdown-banner-holder"> <a href="#"><img alt="" src="assets/frontend/images/banners/banner-side.png" /></a> </div>
               </div>
               <!-- /.row --> 
             </li>
@@ -313,7 +313,7 @@
                     <li><a href="#">Headphones</a></li>
                   </ul>
                 </div>
-                <div class="dropdown-banner-holder"> <a href="#"><img alt="" src="assets/images/banners/banner-side.png" /></a> </div>
+                <div class="dropdown-banner-holder"> <a href="#"><img alt="" src="assets/frontend/images/banners/banner-side.png" /></a> </div>
               </div>
               <!-- /.row --> 
             </li>
@@ -351,7 +351,7 @@
       <div class="item">
         <div class="products">
           <div class="hot-deal-wrapper">
-            <div class="image"> <img src="assets/images/hot-deals/p25.jpg" alt=""> </div>
+            <div class="image"> <img src="assets/frontend/images/hot-deals/p25.jpg" alt=""> </div>
             <div class="sale-offer-tag"><span>49%<br>
               off</span></div>
             <div class="timing-wrapper">
@@ -395,7 +395,7 @@
       <div class="item">
         <div class="products">
           <div class="hot-deal-wrapper">
-            <div class="image"> <img src="assets/images/hot-deals/p5.jpg" alt=""> </div>
+            <div class="image"> <img src="assets/frontend/images/hot-deals/p5.jpg" alt=""> </div>
             <div class="sale-offer-tag"><span>35%<br>
               off</span></div>
             <div class="timing-wrapper">
@@ -439,7 +439,7 @@
       <div class="item">
         <div class="products">
           <div class="hot-deal-wrapper">
-            <div class="image"> <img src="assets/images/hot-deals/p10.jpg" alt=""> </div>
+            <div class="image"> <img src="assets/frontend/images/hot-deals/p10.jpg" alt=""> </div>
             <div class="sale-offer-tag"><span>35%<br>
               off</span></div>
             <div class="timing-wrapper">
@@ -498,7 +498,7 @@
                 <div class="row product-micro-row">
                   <div class="col col-xs-5">
                     <div class="product-image">
-                      <div class="image"> <a href="#"> <img src="assets/images/products/p30.jpg" alt=""> </a> </div>
+                      <div class="image"> <a href="#"> <img src="assets/frontend/images/products/p30.jpg" alt=""> </a> </div>
                       <!-- /.image --> 
                       
                     </div>
@@ -526,7 +526,7 @@
                 <div class="row product-micro-row">
                   <div class="col col-xs-5">
                     <div class="product-image">
-                      <div class="image"> <a href="#"> <img src="assets/images/products/p29.jpg" alt=""> </a> </div>
+                      <div class="image"> <a href="#"> <img src="assets/frontend/images/products/p29.jpg" alt=""> </a> </div>
                       <!-- /.image --> 
                       
                     </div>
@@ -554,95 +554,7 @@
                 <div class="row product-micro-row">
                   <div class="col col-xs-5">
                     <div class="product-image">
-                      <div class="image"> <a href="#"> <img src="assets/images/products/p28.jpg" alt=""> </a> </div>
-                      <!-- /.image --> 
-                      
-                    </div>
-                    <!-- /.product-image --> 
-                  </div>
-                  <!-- /.col -->
-                  <div class="col col-xs-7">
-                    <div class="product-info">
-                      <h3 class="name"><a href="#">Floral Print Shirt</a></h3>
-                      <div class="rating rateit-small"></div>
-                      <div class="product-price"> <span class="price"> $450.99 </span> </div>
-                      <!-- /.product-price --> 
-                      
-                    </div>
-                  </div>
-                  <!-- /.col --> 
-                </div>
-                <!-- /.product-micro-row --> 
-              </div>
-              <!-- /.product-micro --> 
-              
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <div class="products special-product">
-            <div class="product">
-              <div class="product-micro">
-                <div class="row product-micro-row">
-                  <div class="col col-xs-5">
-                    <div class="product-image">
-                      <div class="image"> <a href="#"> <img src="assets/images/products/p27.jpg" alt=""> </a> </div>
-                      <!-- /.image --> 
-                      
-                    </div>
-                    <!-- /.product-image --> 
-                  </div>
-                  <!-- /.col -->
-                  <div class="col col-xs-7">
-                    <div class="product-info">
-                      <h3 class="name"><a href="#">Floral Print Shirt</a></h3>
-                      <div class="rating rateit-small"></div>
-                      <div class="product-price"> <span class="price"> $450.99 </span> </div>
-                      <!-- /.product-price --> 
-                      
-                    </div>
-                  </div>
-                  <!-- /.col --> 
-                </div>
-                <!-- /.product-micro-row --> 
-              </div>
-              <!-- /.product-micro --> 
-              
-            </div>
-            <div class="product">
-              <div class="product-micro">
-                <div class="row product-micro-row">
-                  <div class="col col-xs-5">
-                    <div class="product-image">
-                      <div class="image"> <a href="#"> <img src="assets/images/products/p26.jpg" alt=""> </a> </div>
-                      <!-- /.image --> 
-                      
-                    </div>
-                    <!-- /.product-image --> 
-                  </div>
-                  <!-- /.col -->
-                  <div class="col col-xs-7">
-                    <div class="product-info">
-                      <h3 class="name"><a href="#">Floral Print Shirt</a></h3>
-                      <div class="rating rateit-small"></div>
-                      <div class="product-price"> <span class="price"> $450.99 </span> </div>
-                      <!-- /.product-price --> 
-                      
-                    </div>
-                  </div>
-                  <!-- /.col --> 
-                </div>
-                <!-- /.product-micro-row --> 
-              </div>
-              <!-- /.product-micro --> 
-              
-            </div>
-            <div class="product">
-              <div class="product-micro">
-                <div class="row product-micro-row">
-                  <div class="col col-xs-5">
-                    <div class="product-image">
-                      <div class="image"> <a href="#"> <img src="assets/images/products/p25.jpg" alt=""> </a> </div>
+                      <div class="image"> <a href="#"> <img src="assets/frontend/images/products/p28.jpg" alt=""> </a> </div>
                       <!-- /.image --> 
                       
                     </div>
@@ -674,7 +586,7 @@
                 <div class="row product-micro-row">
                   <div class="col col-xs-5">
                     <div class="product-image">
-                      <div class="image"> <a href="#"> <img src="assets/images/products/p24.jpg"  alt=""> </a> </div>
+                      <div class="image"> <a href="#"> <img src="assets/frontend/images/products/p27.jpg" alt=""> </a> </div>
                       <!-- /.image --> 
                       
                     </div>
@@ -702,7 +614,95 @@
                 <div class="row product-micro-row">
                   <div class="col col-xs-5">
                     <div class="product-image">
-                      <div class="image"> <a href="#"> <img src="assets/images/products/p23.jpg" alt=""> </a> </div>
+                      <div class="image"> <a href="#"> <img src="assets/frontend/images/products/p26.jpg" alt=""> </a> </div>
+                      <!-- /.image --> 
+                      
+                    </div>
+                    <!-- /.product-image --> 
+                  </div>
+                  <!-- /.col -->
+                  <div class="col col-xs-7">
+                    <div class="product-info">
+                      <h3 class="name"><a href="#">Floral Print Shirt</a></h3>
+                      <div class="rating rateit-small"></div>
+                      <div class="product-price"> <span class="price"> $450.99 </span> </div>
+                      <!-- /.product-price --> 
+                      
+                    </div>
+                  </div>
+                  <!-- /.col --> 
+                </div>
+                <!-- /.product-micro-row --> 
+              </div>
+              <!-- /.product-micro --> 
+              
+            </div>
+            <div class="product">
+              <div class="product-micro">
+                <div class="row product-micro-row">
+                  <div class="col col-xs-5">
+                    <div class="product-image">
+                      <div class="image"> <a href="#"> <img src="assets/frontend/images/products/p25.jpg" alt=""> </a> </div>
+                      <!-- /.image --> 
+                      
+                    </div>
+                    <!-- /.product-image --> 
+                  </div>
+                  <!-- /.col -->
+                  <div class="col col-xs-7">
+                    <div class="product-info">
+                      <h3 class="name"><a href="#">Floral Print Shirt</a></h3>
+                      <div class="rating rateit-small"></div>
+                      <div class="product-price"> <span class="price"> $450.99 </span> </div>
+                      <!-- /.product-price --> 
+                      
+                    </div>
+                  </div>
+                  <!-- /.col --> 
+                </div>
+                <!-- /.product-micro-row --> 
+              </div>
+              <!-- /.product-micro --> 
+              
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="products special-product">
+            <div class="product">
+              <div class="product-micro">
+                <div class="row product-micro-row">
+                  <div class="col col-xs-5">
+                    <div class="product-image">
+                      <div class="image"> <a href="#"> <img src="assets/frontend/images/products/p24.jpg"  alt=""> </a> </div>
+                      <!-- /.image --> 
+                      
+                    </div>
+                    <!-- /.product-image --> 
+                  </div>
+                  <!-- /.col -->
+                  <div class="col col-xs-7">
+                    <div class="product-info">
+                      <h3 class="name"><a href="#">Floral Print Shirt</a></h3>
+                      <div class="rating rateit-small"></div>
+                      <div class="product-price"> <span class="price"> $450.99 </span> </div>
+                      <!-- /.product-price --> 
+                      
+                    </div>
+                  </div>
+                  <!-- /.col --> 
+                </div>
+                <!-- /.product-micro-row --> 
+              </div>
+              <!-- /.product-micro --> 
+              
+            </div>
+            <div class="product">
+              <div class="product-micro">
+                <div class="row product-micro-row">
+                  <div class="col col-xs-5">
+                    <div class="product-image">
+                      <div class="image"> <a href="#"> <img src="assets/frontend/images/products/p23.jpg" alt=""> </a> </div>
                       <!-- /.image --> 
                       
                     </div>
@@ -729,7 +729,7 @@
                 <div class="row product-micro-row">
                   <div class="col col-xs-5">
                     <div class="product-image">
-                      <div class="image"> <a href="#"> <img src="assets/images/products/p22.jpg" alt=""> </a> </div>
+                      <div class="image"> <a href="#"> <img src="assets/frontend/images/products/p22.jpg" alt=""> </a> </div>
                       <!-- /.image --> 
                       
                     </div>
@@ -784,7 +784,7 @@
                 <div class="row product-micro-row">
                   <div class="col col-xs-5">
                     <div class="product-image">
-                      <div class="image"> <a href="#"> <img src="assets/images/products/p28.jpg"  alt=""> </a> </div>
+                      <div class="image"> <a href="#"> <img src="assets/frontend/images/products/p28.jpg"  alt=""> </a> </div>
                       <!-- /.image --> 
                       
                     </div>
@@ -812,7 +812,7 @@
                 <div class="row product-micro-row">
                   <div class="col col-xs-5">
                     <div class="product-image">
-                      <div class="image"> <a href="#"> <img src="assets/images/products/p15.jpg"  alt=""> </a> </div>
+                      <div class="image"> <a href="#"> <img src="assets/frontend/images/products/p15.jpg"  alt=""> </a> </div>
                       <!-- /.image --> 
                       
                     </div>
@@ -840,7 +840,7 @@
                 <div class="row product-micro-row">
                   <div class="col col-xs-5">
                     <div class="product-image">
-                      <div class="image"> <a href="#"> <img src="assets/images/products/p26.jpg"  alt="image"> </a> </div>
+                      <div class="image"> <a href="#"> <img src="assets/frontend/images/products/p26.jpg"  alt="image"> </a> </div>
                       <!-- /.image --> 
                       
                     </div>
@@ -872,7 +872,7 @@
                 <div class="row product-micro-row">
                   <div class="col col-xs-5">
                     <div class="product-image">
-                      <div class="image"> <a href="#"> <img src="assets/images/products/p18.jpg" alt=""> </a> </div>
+                      <div class="image"> <a href="#"> <img src="assets/frontend/images/products/p18.jpg" alt=""> </a> </div>
                       <!-- /.image --> 
                       
                     </div>
@@ -900,7 +900,7 @@
                 <div class="row product-micro-row">
                   <div class="col col-xs-5">
                     <div class="product-image">
-                      <div class="image"> <a href="#"> <img src="assets/images/products/p17.jpg" alt=""> </a> </div>
+                      <div class="image"> <a href="#"> <img src="assets/frontend/images/products/p17.jpg" alt=""> </a> </div>
                       <!-- /.image --> 
                       
                     </div>
@@ -928,7 +928,7 @@
                 <div class="row product-micro-row">
                   <div class="col col-xs-5">
                     <div class="product-image">
-                      <div class="image"> <a href="#"> <img src="assets/images/products/p16.jpg" alt=""> </a> </div>
+                      <div class="image"> <a href="#"> <img src="assets/frontend/images/products/p16.jpg" alt=""> </a> </div>
                       <!-- /.image --> 
                       
                     </div>
@@ -959,7 +959,7 @@
                 <div class="row product-micro-row">
                   <div class="col col-xs-5">
                     <div class="product-image">
-                      <div class="image"> <a href="#"> <img src="assets/images/products/p15.jpg" alt="images">
+                      <div class="image"> <a href="#"> <img src="assets/frontend/images/products/p15.jpg" alt="images">
                         <div class="zoom-overlay"></div>
                         </a> </div>
                       <!-- /.image --> 
@@ -989,7 +989,7 @@
                 <div class="row product-micro-row">
                   <div class="col col-xs-5">
                     <div class="product-image">
-                      <div class="image"> <a href="#"> <img src="assets/images/products/p14.jpg"  alt="">
+                      <div class="image"> <a href="#"> <img src="assets/frontend/images/products/p14.jpg"  alt="">
                         <div class="zoom-overlay"></div>
                         </a> </div>
                       <!-- /.image --> 
@@ -1019,7 +1019,7 @@
                 <div class="row product-micro-row">
                   <div class="col col-xs-5">
                     <div class="product-image">
-                      <div class="image"> <a href="#"> <img src="assets/images/products/p13.jpg" alt="image"> </a> </div>
+                      <div class="image"> <a href="#"> <img src="assets/frontend/images/products/p13.jpg" alt="image"> </a> </div>
                       <!-- /.image --> 
                       
                     </div>
@@ -1072,7 +1072,7 @@
   <div class="sidebar-widget  wow fadeInUp outer-top-vs ">
     <div id="advertisement" class="advertisement">
       <div class="item">
-        <div class="avatar"><img src="assets/images/testimonials/member1.png" alt="Image"></div>
+        <div class="avatar"><img src="assets/frontend/images/testimonials/member1.png" alt="Image"></div>
         <div class="testimonials"><em>"</em> Vtae sodales aliq uam morbi non sem lacus port mollis. Nunc condime tum metus eud molest sed consectetuer.<em>"</em></div>
         <div class="clients_author">John Doe <span>Abc Company</span> </div>
         <!-- /.container-fluid --> 
@@ -1080,14 +1080,14 @@
       <!-- /.item -->
       
       <div class="item">
-        <div class="avatar"><img src="assets/images/testimonials/member3.png" alt="Image"></div>
+        <div class="avatar"><img src="assets/frontend/images/testimonials/member3.png" alt="Image"></div>
         <div class="testimonials"><em>"</em>Vtae sodales aliq uam morbi non sem lacus port mollis. Nunc condime tum metus eud molest sed consectetuer.<em>"</em></div>
         <div class="clients_author">Stephen Doe <span>Xperia Designs</span> </div>
       </div>
       <!-- /.item -->
       
       <div class="item">
-        <div class="avatar"><img src="assets/images/testimonials/member2.png" alt="Image"></div>
+        <div class="avatar"><img src="assets/frontend/images/testimonials/member2.png" alt="Image"></div>
         <div class="testimonials"><em>"</em> Vtae sodales aliq uam morbi non sem lacus port mollis. Nunc condime tum metus eud molest sed consectetuer.<em>"</em></div>
         <div class="clients_author">Saraha Smith <span>Datsun &amp; Co</span> </div>
         <!-- /.container-fluid --> 
@@ -1100,5 +1100,5 @@
   
   <!-- ============================================== Testimonials: END ============================================== -->
   
-  <div class="home-banner"> <img src="assets/images/banners/LHS-banner.jpg" alt="Image"> </div>
+  <div class="home-banner"> <img src="assets/frontend/images/banners/LHS-banner.jpg" alt="Image"> </div>
 </div>
