@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
 <!-- Meta -->
 <meta charset="utf-8">
@@ -9,12 +9,19 @@
 <meta name="keywords" content="MediaCenter, Template, eCommerce">
 <meta name="robots" content="all">
 <title>Yassin Shop</title>
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
 <!-- Bootstrap Core CSS -->
-<link rel="stylesheet" href="{{asset('assets/frontend/css/bootstrap.min.css')}}">
 
 <!-- Customizable CSS -->
-<link rel="stylesheet" href="{{asset('assets/frontend/css/main.css')}}">
+@if (App::getLocale() == 'en')
+  <link rel="stylesheet" href="{{asset('assets/frontend/css/bootstrap.min.css')}}">
+  <link rel="stylesheet" href="{{asset('assets/frontend/css/main.css')}}">
+@else
+  <link rel="stylesheet" href="{{asset('assets/frontend/css/bootstrap-rtl.min.css')}}">
+  <link rel="stylesheet" href="{{asset('assets/frontend/css/main-rtl.css')}}">
+@endif
 <link rel="stylesheet" href="{{asset('assets/frontend/css/blue.css')}}">
 <link rel="stylesheet" href="{{asset('assets/frontend/css/owl.carousel.css')}}">
 <link rel="stylesheet" href="{{asset('assets/frontend/css/owl.transitions.css')}}">

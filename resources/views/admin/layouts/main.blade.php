@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="../images/favicon.ico">
-
+    <link rel="icon" href="{{asset('assets/admin/images/favicon.ico')}}">
+    @stack('styles')
     <title>@yield('title')</title>
     
 	<!-- Vendors Style-->
@@ -64,7 +64,7 @@
 	<script src="{{asset('assets/admin/js/template.js')}}"></script>
 	<script src="{{asset('assets/admin/js/pages/dashboard.js')}}"></script>
     <!-- Sweet Alert -->
-    <script src="{{asset('assets/admin/assets/vendor_components/sweetalert/sweetalert.min.js')}}"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <!-- Toaster -->
     <script src="{{asset('assets/admin/assets/vendor_components/toastr/toastr.min.js')}}"></script>
   <script>
@@ -77,5 +77,6 @@
       toastr.success(successMessage)
     }
   </script>
+  @stack('scripts')
 </body>
 </html>
