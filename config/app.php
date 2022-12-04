@@ -195,7 +195,10 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        //third party package providers
         Intervention\Image\ImageServiceProvider::class,
+        //custom providers
+        \App\Providers\ViewDataServiceProvider::class,
     ],
 
     /*

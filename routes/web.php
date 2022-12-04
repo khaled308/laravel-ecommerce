@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Frontend\HomeController;
 use Illuminate\Support\Facades\Route;
 
 Route::group(
@@ -12,11 +13,7 @@ Route::group(
         Route::middleware('auth')->group(function () {
         });
 
-
-
+        Route::get('/', [HomeController::class, 'index']);
         require __DIR__ . '/auth.php';
     }
 );
-Route::get('/', function () {
-    return view('frontend.pages.index');
-});
